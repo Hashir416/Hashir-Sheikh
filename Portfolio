@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hashir's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+                <h1>Hashir's Portfolio</h1>
+            </div>
+        <header>
+            <h2>About me!</h2>
+            
+        </header>
