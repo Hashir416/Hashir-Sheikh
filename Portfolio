@@ -9,8 +9,19 @@
     <body>
         <div id="wrapper">
                 <h1>Hashir's Portfolio</h1>
-            </div>
-        <header>
-            <h2>About me!</h2>
-            
-        </header>
+             <header>
+            <h2>Home Page</h2>
+            <h4>Links below</h3>
+            </header>
+            <nav> 
+                <h5>
+                    <a href="feedback form.html">Send me a message!</a>
+                    <a href="Projects.html">Projects</a>
+                    <a href="Video.html">Video</a>
+                    <a href="Assignment 1">Home Page</a>
+                    <a href="aboutme.html">About me
+                        
+                    </a>
+                </h5>
+            </nav>
+
