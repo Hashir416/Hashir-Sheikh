@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <charset="UTF-8">
+            <meta charset="UTF-8">
+            <title>Portfolio - Projects</title>
+            <link href="Phone.css"rel="stylesheet" type="text/css">
+            <link href="full.css" rel="stylesheet" type="text/css">
+            <link href="Tablet.css" rel="stylesheet" type="text/css">
+    </head>
