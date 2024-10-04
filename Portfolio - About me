@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Portfolio - About Me</title>
     <link rel="stylesheet" type="text/css" href="design.css">
-    <script src="main.js"></script>
     <link href="Phone.css" rel="stylesheet" type="text/css">
     <link href="full.css" rel="stylesheet" type="text/css">
     <link href="Tablet.css" rel="stylesheet" type="text/css">
@@ -18,7 +17,7 @@
                 <a href="Home Page.html">Home page</a>
                 <a href="aboutme.html">About me</a>
                 <a href="Projects.html">Projects</a>
-                <a href="feedback form.html">Contact me</a> <!-- Corrected file name -->
+                <a href="feedback form.html">Contact me</a> 
             </h3>
         </nav>
 </header>
@@ -49,6 +48,11 @@
                 <img src="Snapchat-1819945105.jpg" width="300" height="300" alt="Me in my natural habitat">
                 <figcaption>This is me in my natural habitat.</figcaption>
             </div>
+            <div class="video-section">
+                <video width="300" height="200" controls poster="Videoposter.jpg" preload>
+                    <source src="introvid.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
         </figure>
     </main>
     </div>
