@@ -1,0 +1,100 @@
+header
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: black;
+    background-color:DarkOrange;
+    padding: 10px;
+}
+body
+{
+    background-color:rgb(226, 234, 243);
+    height: 1px;
+}
+#title
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: black;
+    background-color:DarkOrange;
+}
+figure
+{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: black;
+    background-color:rgb(228, 182, 126);
+}
+article
+{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: black;
+    background-color:rgb(228, 182, 126);
+}
+nav
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: black;
+    background-color:rgb(228, 182, 126);
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+h4
+{
+    text-align: center;
+    font-size: 20px;
+}
+footer
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: black;
+    background-color:DarkOrange;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+}
+h2
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: black;
+}
+
+form
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: black;
+    background-color:whitesmoke;
+    margin-top: 0;
+
+}
+
+#contactmsg
+{ 
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: black;
+    background-color:whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
