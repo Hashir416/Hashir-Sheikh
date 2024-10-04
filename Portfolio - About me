@@ -1,45 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Page Title</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-    <div id="wrapper">
-        
-        <header> 
-            <h1>About Me</h1>
-            <nav> 
-                <h5>
-                    <a href="feedback form.html">Send me a message!</a>
-                    <a href="Projects.html">Projects</a>
-                    <a href="Video.html">Video</a>
-                    <a href="Assignment 1">Home Page</a>
-                 </h5>
-            </nav>
-            <p>On this page you can find interesting facts about me and what my hobbies are.</p>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - About Me</title>
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <script src="main.js"></script>
+    <link href="Phone.css" rel="stylesheet" type="text/css">
+    <link href="full.css" rel="stylesheet" type="text/css">
+    <link href="Tablet.css" rel="stylesheet" type="text/css">
+</head>
+<header> 
+    <div id="nav">
+        <h1>About Me</h1>
+        <p>Here you can learn some intersting things about me!</p>
+        <nav>
+            <h3>
+                <a href="Home Page.html">Home page</a>
+                <a href="aboutme.html">About me</a>
+                <a href="Projects.html">Projects</a>
+                <a href="feedback form.html">Contact me</a> <!-- Corrected file name -->
+            </h3>
+        </nav>
+</header>
+<body>
+    <div id="abtme">
+    <main>
         <article>
             <section>
-                <h2>I love playing basketball!</h2>
-                    <p>I started playing basketball in 8th grade, from there I've never stopped. I've gotten much better at it over the years and even branched out new 
-                        healthy hobbies because of it, such as weightlifting. I played basketball competitionally on my highschool team, and even played in an adult 
-                        this past summer. I see it as an escape and any moment I play basketball is a good time. 
-                    </p>
-                  </section>
-            <section>
-                <h2>Future goals</h2>
-                <p>My goal for the future is to go into project management, more specifically IT project management, I heard it pays very well and if there is money 
-                    in something count me in. I also like the idea of being leading a team. 
-                </p>
-                </section>
-            <section>
-                <h2>Thoughts on the class</h2>
-                <p>To be completely honest, I don't really find coding that intersting, but so far this class has been very fun, I'm beginning to find coding kind 
-                    interesting. It's an amazing skill to have, even if I won't use it in my workplace in the future.
-                </p>
+                <h3>Hobbies</h3>
+                <p>I started playing basketball in 8th grade, and I've never stopped since. I've gotten much better at it over the years and even branched out new 
+                    healthy hobbies because of it, such as weightlifting. I played basketball competitively on my high school team, and even played in an adult 
+                    league this past summer. I see it as an escape, and any moment I play basketball is a good time.</p>
             </section>
-            
+            <section>
+                <h3>Future Goals</h3>
+                <p>My goal for the future is to go into project management, more specifically IT project management. I heard it pays very well, and if there is money 
+                    in something, count me in. I also like the idea of leading a team.</p>
+            </section>
+            <section>
+                <h3>Thoughts on the Class</h3>
+                <p>To be completely honest, I don't really find coding that interesting, but so far this class has been very fun. I'm beginning to find coding kind of 
+                    interesting. It's an amazing skill to have, even if I won't use it in my future workplace.</p>
+            </section>
+        </article>
+
+        <figure>
+            <div id="image">
+                <img src="Snapchat-1819945105.jpg" width="300" height="300" alt="Me in my natural habitat">
+                <figcaption>This is me in my natural habitat.</figcaption>
+            </div>
+        </figure>
+    </main>
     </div>
+    <footer>
+        <b>© 2024 Hashir Sheikh</b>
+    </footer>
 </body>
+</html>
