@@ -1,4 +1,10 @@
 @charset "UTF-8";
+body{
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding:0px;
+    margin:0px;
+    background-color: whitesmoke;
+}
 header 
 {
     text-align: center;
