@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,39 +12,43 @@
 </head>
 <body>
     <header>
-        <h1>Hashir's Portfolio</h1>
-        <p>You are currently on the Home Page.</p>
+        <div id="homepg">
+            <h1>Welcome to Hashir's Portfolio.</h1>
+            <p>This is the Home Page!</p>
+        </div>
+        <div id="nav">
+            <nav>
+                <h3>
+                    <a href="Home Page.html">Home page</a>
+                    <a href="aboutme.html">About me</a>
+                    <a href="Projects.html">Projects</a>
+                    <a href="Feedback form.html">Contact me</a>
+                </h3>
+            </nav>
+        </div>
     </header>
-    
-    <div id="nav">
-        <h4>Links below</h4>
-        <nav>
-            <h5>
-                <a href="Home Page.html">Home page</a>
-                <a href="aboutme.html">About me</a>
-                <a href="Projects.html">Projects</a>
-                <a href="Feedback form.html">Contact me</a>
-            </h5>
-        </nav>
-    </div>
 
     <div id="main">
-        <h2>Welcome to my Portfolio!</h2>
-        <p>
-            My name is Hashir Sheikh and I am a 3rd year student at Ontario Tech University. 
-            I'm working towards a Bachelor's in Information Technology.
+        <div class="content">
+            <div class="text-section">
+                <h2>Welcome to my Portfolio!</h2>
+                <p>
+                    My name is Hashir Sheikh and I am a 3rd year student at Ontario Tech University. 
+                    I'm working towards a Bachelor's in Information Technology.
 
-            On this page, I will be sharing some projects that am working on outside of school, 
-            some interesting facts about me, some of my hobbies, and there is also a contact form
-            for you all to reach me with. 
+                    On this page, I will be sharing some projects that am working on outside of school, 
+                    some interesting facts about me, some of my hobbies, and there is also a contact form
+                    for you all to reach me. 
 
-            This is my first time building a website using HTML and CSS, and I am very excited to 
-            see what the future holds in terms of Web Development.
-        </p>
+                    This is my first time building a website using HTML and CSS, and I am very excited to 
+                    see what the future holds in terms of Web Development.
+                </p>
+            </div>
+        </div>
     </div>
+
     <footer>
         <b>© 2024 Hashir Sheikh</b>
     </footer>
 </body>
 </html>
-
