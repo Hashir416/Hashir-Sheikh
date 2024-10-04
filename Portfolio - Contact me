@@ -12,19 +12,20 @@
     </head>
 
     <header>
-        <div id="contact">
-            </div>
             <h1>Contact Me</h1>
+            <p>Use the form below to contact me.</p>
             <nav>
-                <h5>
+                <h3>
                     <a href="Home Page.html">Home page</a>
                     <a href="aboutme.html">About me</a>
                     <a href="Projects.html">Projects</a>
-                    <a href="Contact me.html">Contact me</a>
-                </h5>
+                    <a href="Feedback form.html">Contact me</a>
+                </h3>
             </nav>
+        </header>
+        <body>
             <div id="contactmsg">
-                <p>Please fill out the form below to contact me. Please be patient, try not to send multiple get in touch with you as soon as possible.</p>
+                <p>Please fill out the form below to contact me. Please be patient, try not to send multiple emails at once. I will get in touch with you as soon as possible.</p>
             </div>
             <form action="mailto:hashir.sheikh@ontariotechu.net"
                 method="post" enctype="text/plain" name="contact-form">
@@ -61,11 +62,9 @@
                     <input type="reset" value="Reset">
                 </p>
             </form>
-        </div>
-
+        </body>
         <footer>
             <b>© 2024 Hashir Sheikh </b>
         </footer>
     <header>
 </html>
-
