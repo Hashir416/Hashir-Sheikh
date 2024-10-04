@@ -1,30 +1,29 @@
-header
+@charset "UTF-8";
+
+header 
 {
     text-align: center;
     font-size: 40px;
     font-family: Verdana, Geneva, Arial, sans-serif;
     color: black;
-    background-color:DarkOrange;
+    background: linear-gradient(to bottom, orange, white); /* Gradient from orange to white */
     padding: 10px;
+    margin: 10px; /* Combined margins for simplicity */
 }
-body
-{
-    background-color:rgb(226, 234, 243);
-    height: 1px;
-}
-#title
+
+#main
 {
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Arial, sans-serif;
     color: black;
-    background-color:DarkOrange;
+    background-color:whitesmoke;
+    padding-top: 20px;
 }
-figure
+
+#image
 {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+    text-align: center;
 }
 figcaption
 {
@@ -33,13 +32,8 @@ figcaption
     font-family: Verdana, Geneva, Arial, sans-serif;
     color: black;
     background-color:rgb(228, 182, 126);
-}
-article
-{
-    font-size: 20px;
-    font-family: Verdana, Geneva, Arial, sans-serif;
-    color: black;
-    background-color:rgb(228, 182, 126);
+    padding: 20px;
+    margin-top: 10px;
 }
 nav
 {
@@ -51,30 +45,22 @@ nav
     padding: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-h4
-{
-    text-align: center;
-    font-size: 20px;
-}
-footer
+
+footer 
+
 {
     text-align: center;
     font-size: 20px;
     font-family: Verdana, Geneva, Arial, sans-serif;
     color: black;
-    background-color:DarkOrange;
+    background: linear-gradient(to bottom, DarkOrange, white); /* Gradient from DarkOrange to white */
     padding: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-bottom: 30px;
-}
-h2
-{
-    text-align: center;
-    font-size: 40px;
-    font-family: Verdana, Geneva, Arial, sans-serif;
-    color: black;
+    margin-top: 50px; /* Space between form and footer */
 }
 
 form
@@ -84,17 +70,31 @@ form
     font-family: Verdana, Geneva, Arial, sans-serif;
     color: black;
     background-color:whitesmoke;
-    margin-top: 0;
+    padding-top: 20px;
 
 }
 
-#contactmsg
-{ 
+form input[type="reset"] 
+{
+    margin-bottom: 30px; 
+}
+
+#contactmsg 
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    margin-bottom: 0; /* Remove extra spacing */
+    padding: 10px; /* Optional padding for breathing room */
+}
+ #abtme
+ {
     text-align: center;
     font-size: 20px;
     font-family: Verdana, Geneva, Arial, sans-serif;
     color: black;
     background-color:whitesmoke;
-    margin: 0px;
-    padding: 0px;
-}
+    padding-top: 20px;
+ }
