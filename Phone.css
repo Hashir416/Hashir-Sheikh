@@ -1,0 +1,54 @@
+@media only screen
+and (max-width : 480px) {
+body {
+color: white;
+font-family: Verdana, Geneva, Arial, sans-serif;
+padding:0px;
+margin:0px;
+}
+h1,h2,h3,h4,h5,h6,p,li {
+margin-left:15px;
+margin-top:0px;
+}
+#wrapper {width: 100%;
+}
+#right-column {
+width:100%;
+float: none;
+height: 1200px;
+background-color: DarkOrange;
+}
+#left-column {
+float: none;
+height:120px;
+width:100%;
+}
+#footer {
+height:80px;
+background-color:black;
+}
+#banner{
+height:100px;
+background-color:black;
+}
+.box {
+width: 90%;
+min-height:120px;
+background-color:dark-red;
+margin: 15px;
+opacity:1;}
+.button {
+font-size:x-large;
+text-decoration:none;
+background-color:LightBlue;
+display:block;
+width:25%;float:left;
+padding:5px;
+margin:5px;
+border-radius:5px;
+box-shadow:5px 5px 3px gray;
+}
+.button:hover {
+box-shadow:5px 5px 3px black;
+}
+}
