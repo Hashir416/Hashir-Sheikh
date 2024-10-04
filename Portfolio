@@ -35,21 +35,12 @@
 
             On this page, I will be sharing some projects that am working on outside of school, 
             some interesting facts about me, some of my hobbies, and there is also a contact form
-            for you all to reach my with. 
+            for you all to reach me with. 
 
             This is my first time building a website using HTML and CSS, and I am very excited to 
             see what the future holds in terms of Web Development.
-            
-            Below is me in real life in my natural habitat.
         </p>
     </div>
-<div class="video-section">
-            <video width="300" controls>
-                <source src="Introvid.mp4" type="video/mp4">
-                Your browser does not support HTML video.
-            </video>
-        </div>
-
     <footer>
         <b>© 2024 Hashir Sheikh</b>
     </footer>
