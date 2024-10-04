@@ -6,10 +6,11 @@ header
     font-size: 40px;
     font-family: Verdana, Geneva, Arial, sans-serif;
     color: black;
-    background: linear-gradient(to bottom, orange, white); /* Gradient from orange to white */
+    background: linear-gradient(45deg, orange, white);
     padding: 10px;
     margin: 10px; /* Combined margins for simplicity */
 }
+
 
 #main
 {
@@ -19,6 +20,7 @@ header
     color: black;
     background-color:whitesmoke;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #image
@@ -31,7 +33,7 @@ figcaption
     font-size: 20px;
     font-family: Verdana, Geneva, Arial, sans-serif;
     color: black;
-    background-color:rgb(228, 182, 126);
+    background-color:whitesmoke;
     padding: 20px;
     margin-top: 10px;
 }
@@ -97,4 +99,24 @@ form input[type="reset"]
     color: black;
     background-color:whitesmoke;
     padding-top: 20px;
+ }
+
+ #projects
+ {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    color: black;
+    background-color:whitesmoke;
+    padding-top: 20px;
+ }
+
+ video
+ {
+    width: 400px;
+    padding: 15px;
+    margin: 15px;
+    background-color:black;
+    border:whitesmoke;
+    box-shadow: 10px 10px 10px black;
  }
