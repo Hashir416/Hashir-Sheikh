@@ -1,72 +1,71 @@
-<!-- Below is the contact me form -->
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset='utf-8'>
-            <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-            <title>Portfolio - Feedback Form</title>
-        <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel='stylesheet' type='text/css' media='screen' href='design.css'>
-        <link href="Phone.css"rel="stylesheet" type="text/css">
-        <link href="full.css" rel="stylesheet" type="text/css">
-        <link href="Tablet.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio - Feedback Form</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="design.css">
+        <link rel="stylesheet" type="text/css" href="Phone.css">
+        <link rel="stylesheet" type="text/css" href="full.css">
+        <link rel="stylesheet" type="text/css" href="Tablet.css">
     </head>
-    <body>
-        <div id="header">
 
-            <h1>Contact Me!</h1>
-        <nav>
-            <h5>
-                <a href="feedback form.html">Contact Me</a>
-                <a href="Projects.html">Projects</a>
-                <a href="Home Page.html">Home Page</a>
-                <a href="aboutme.html">About me</a>
-            </h5>
-        </nav>
-        <p>Please fill out the form below to contact me. I will get in touch with you as soon as possible.</p>
+    <header>
+        <div id="contact">
+            </div>
+            <h1>Contact Me</h1>
+            <nav>
+                <h5>
+                    <a href="Home Page.html">Home page</a>
+                    <a href="aboutme.html">About me</a>
+                    <a href="Projects.html">Projects</a>
+                    <a href="Contact me.html">Contact me</a>
+                </h5>
+            </nav>
+            <div id="contactmsg">
+                <p>Please fill out the form below to contact me. Please be patient, try not to send multiple get in touch with you as soon as possible.</p>
+            </div>
+            <form action="mailto:hashir.sheikh@ontariotechu.net"
+                method="post" enctype="text/plain" name="contact-form">
+                <p>
+                    <label for="first-name">Enter your first name:</label>
+                    <input type="text" id="first-name" required name="first-name" size="30" placeholder="Please enter your first name">
+                </p>
+                <p>
+                    <label for="last-name">Enter your last name:</label>
+                    <input type="text" id="last-name" required name="last-name" size="30" placeholder="Please enter your last name">
+                </p>
+                <p>
+                    <label for="email">Please enter your email address:</label>
+                    <input type="email" id="email" required name="email" size="30" placeholder="Enter your email address">
+                </p>
+                <p>
+                    <label for="phone">Please enter your phone number:</label>
+                    <input type="tel" id="phone" required name="phone" size="30" placeholder="Enter your phone number">
+                </p>
 
-    <form action="mailto:hashir.sheikh@ontariotechu.net"
-                method="post" enctype="text/plain" name="form">
-        <p>
-            <label for="name">Enter your first name:</label>
-            <input type="text" required name="name" size="30" placeholder="Please enter your first name">
-        </p>
-        <p>
-            <label for="name">Enter your last name:</label>
-            <input type="text" required name="name" size="30" placeholder="Please enter your last name">
-        </p>
-        <p>
-            <label for="email">Please enter your email address:</label>
-            <input type="email" required name="email" size="30" placeholder="Enter your email address">
-        </p>
-        <p>
-            <label for="phone">Please enter your phone number:</label>
-            <input type="tel" required name="phone" size="30" placeholder="Enter your phone number">
-        </p>
+                <p>
+                    <label for="comment">What would you like to discuss?</label>
+                    <br><br>
+                    <textarea id="comment" name="comment" cols="40" rows="10" placeholder="Enter your comments here"></textarea>
+                </p>
+                <p>
+                    <label for="date">Please enter today's date:</label>
+                    <input type="date" id="date" required name="date" size="30">
+                </p>
+                <p>
+                    <input type="submit" value="Click to Submit">
+                </p>
+                <p>
+                    <input type="reset" value="Reset">
+                </p>
+            </form>
+        </div>
 
-        <p>
-            <label for="Comments">What would you like to discuss?</label>
-            <br><br>
-            <textarea name="comment" cols="40" rows="10" placeholder="Enter your comments here"></textarea>
-        </p>
-        <p>
-            <label for="date">Please enter today's date:</label>
-            <input type="date" required name="date" size="30">
-        </p>
-        <p>
-            <input type="submit" value="Click to Submit">
-        
-        </p>
-        <p>
-            <input type="reset" value="Reset">
-        </p>
-         </div>
-         <footer>
-            <footer>
-                <b>© 2024 Hashir Sheikh </b>
-            </footer>
+        <footer>
+            <b>© 2024 Hashir Sheikh </b>
         </footer>
-    </form>
-    </body>
-</html> 
+    <header>
+</html>
+
