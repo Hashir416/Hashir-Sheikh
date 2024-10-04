@@ -43,6 +43,12 @@
             Below is me in real life in my natural habitat.
         </p>
     </div>
+<div class="video-section">
+            <video width="300" controls>
+                <source src="Introvid.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+            </video>
+        </div>
 
     <footer>
         <b>© 2024 Hashir Sheikh</b>
