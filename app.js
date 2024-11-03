@@ -4,6 +4,12 @@ let path = require('path');
 let cookieParser = require('cookie-parser');
 let logger = require('morgan');
 
+// www.Assignment2.ca/
+// www.assignment2/home
+// www.assignment2/aboutme
+// www.assignment2/Myprojects
+// www.assignment2/contactme
+
 let indexRouter = require('./routes/index');
 let usersRouter = require('./routes/users');
 
@@ -29,4 +35,17 @@ app.use(express.static(path.join(__dirname, '../node_modules')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+app.use(function(req, res, next) {
+    next(createError(404));
+  });
+  
+  app.use(function(err, req, res, next) {
 
+    res.locals.message = err.message;
+    res.locals.error = req.app.get('env') === 'development' ? err : {};
+  
+    res.status(err.status || 500);
+    res.render('error',{title:'Error'});
+  });
+  
+  module.exports = app;
